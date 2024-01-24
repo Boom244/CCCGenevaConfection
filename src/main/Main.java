@@ -67,7 +67,7 @@ public class Main {
     }
  }
 
-static int safePeek(Stack<Integer> stack)
+static int safePeek(Stack<Integer> stack) //Helper function to make sure peek() doesn't throw an exception.
  {
   if(stack.empty())
   {
